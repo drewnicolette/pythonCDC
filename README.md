@@ -1,11 +1,15 @@
 # pythonCDC
-This repository does a CDC on two .csv files
+This repository does a CDC on two .csv files and returns a results file with particular statements (insert,update,delete)
 
 The two csv's comparing are named prev.csv (previous) and curr.csv (current)
 
+PreReqs:
+  1. Python3.x
+  2. Makes sure pandas is installed on whatever python version you are running
+  3. A curr.csv file
+  
+  
 1. Clone the repo
-2. You can initialize it by pointing to the directory where you keep your files
-  - This project looks for prev.csv and .curr files
 
 Option 1: Just have a .curr file in a directory of choice
   - Go into the main file and change the path to point to that directory 
